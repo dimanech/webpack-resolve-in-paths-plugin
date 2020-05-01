@@ -1,36 +1,43 @@
 {
-	"name": "webpack-resolve-in-paths-plugin",
-	"version": "1.0.0",
-	"main": "index.js",
-	"description": "",
-	"scripts": {
-		"test": "nyc mocha",
-		"build": "webpack",
-		"coverage": "nyc report --reporter=lcov --reporter=text-lcov | coveralls"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:dimanech/webpack-resolve-in-paths-plugin.git"
-	},
-	"keywords": [
-		"webpack",
-		"plugin",
-		"fallback",
-		"resolve"
-	],
-	"author": "D.Nechepurenko",
-	"license": "MIT",
-	"devDependencies": {
-		"enhanced-resolve": "^4.1.1",
-		"mocha": "^7.1.2",
-		"nyc": "^15.0.1",
-		"webpack": "^4.42.0",
-		"webpack-cli": "^3.3.11"
-	},
-	"dependencies": {
-		"bluebird": "^3.7.2"
-	},
-	"peerDependencies": {
-		"webpack": ">=4.0.0"
-	}
+  "name": "webpack-resolve-in-paths-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "[![Coverage Status](https://coveralls.io/repos/github/dimanech/webpack-resolve-in-paths-plugin/badge.svg?branch=master)](https://coveralls.io/github/dimanech/webpack-resolve-in-paths-plugin?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/dimanech/webpack-resolve-in-paths-plugin.svg)](https://greenkeeper.io/) [![Known Vulnerabilities](https://snyk.io/test/github/dimanech/webpack-resolve-in-paths-plugin/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dimanech/webpack-resolve-in-paths-plugin?targetFile=package.json) [![npm version](https://badge.fury.io/js/webpack-resolve-in-paths-plugin.svg)](https://badge.fury.io/js/webpack-resolve-in-paths-plugin)",
+  "scripts": {
+    "test": "nyc mocha",
+    "build": "webpack",
+    "coverage": "nyc report --reporter=lcov --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dimanech/webpack-resolve-in-paths-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "fallback",
+    "resolve"
+  ],
+  "author": "D.Nechepurenko",
+  "license": "MIT",
+  "devDependencies": {
+    "enhanced-resolve": "^4.1.1",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2"
+  },
+  "peerDependencies": {
+    "webpack": ">=4.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dimanech/webpack-resolve-in-paths-plugin/issues"
+  },
+  "homepage": "https://github.com/dimanech/webpack-resolve-in-paths-plugin#readme",
+  "directories": {
+    "test": "test"
+  }
 }
