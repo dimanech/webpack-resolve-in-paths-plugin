@@ -22,7 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "enhanced-resolve": "^4.1.1",
-    "mocha": "^7.1.2",
+    "mocha": "^10.2.0",
     "nyc": "^15.0.1",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
